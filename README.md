@@ -5,7 +5,66 @@ This is your README. READMEs are where you can communicate what your project is 
 Write your name on line 6, save it, and then head back to GitHub Desktop.
 Cesar
 
+ENGLISH
 
+🏰 Procedural Dungeon Crawler Generator
+
+This is a console-based game engine written in Python. It implements procedural map generation, matrix navigation, and a basic physics and collision system.
+
+📝 Description
+
+The project simulates the exploration of a randomly generated dungeon. Every time the program starts, a unique map with variable dimensions (between 7x7 and 16x16) is created, featuring walls, treasures, and empty spaces.
+
+The player controls a character ("😎") and must navigate the environment while respecting the physical limits of the world.
+
+🚀 Key Features
+
+Procedural Generation: An algorithm utilizing random to build unique maps upon each execution, randomly placing obstacles (🧱) and loot (🧰).
+
+Physics Engine (Collisions): An anticipatory validation system that prevents the player from walking through walls.
+
+World Limits: Boundary Checking logic to ensure the player does not exit the matrix, preventing IndexError exceptions.
+
+State Persistence: The map is held in memory and updates in real-time, clearing the player's trail as they move.
+
+Console Rendering: Graphical visualization of the matrix using emojis for an enhanced User Experience (UX).
+
+🎮 Controls
+
+The game uses the standard WASD input system:
+
+w: Move Up ⬆️
+
+s: Move Down ⬇️
+
+a: Move Left ⬅️
+
+d: Move Right ➡️
+
+🛠️ Technologies Used
+
+Language: Python 3.x
+
+Libraries:
+
+random (Randomness generation)
+
+os (Screen clearing for fluid rendering)
+
+📋 How to Run
+
+Make sure you have Python installed.
+
+Clone this repository or download the file.
+
+Run the script in your terminal:
+
+Bash
+
+python mazmorra.py
+Author: Cesar Project developed as part of the intensive training on Programming Logic and Data Structures.
+
+ESPAÑOL
 
 🏰 Generador de Mazmorras Procedurales (Dungeon Crawler)
 
